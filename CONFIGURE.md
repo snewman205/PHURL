@@ -3,6 +3,10 @@ Configure
 
 This document details the configuration steps for the three built-in providers.
 
+* [Bit.ly](https://github.com/snewman205/PHURL/blob/master/CONFIGURE.md#bitly)
+* [Goo.gl](https://github.com/snewman205/PHURL/blob/master/CONFIGURE.md#googl)
+* [Adf.ly](https://github.com/snewman205/PHURL/blob/master/CONFIGURE.md#adfly)
+
 Bit.ly
 ======
 
