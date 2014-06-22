@@ -1,9 +1,6 @@
 PHURL
 =====
 
-<<<<<<< HEAD
-A delightful PHP library for shortening URLs
-=======
 A delightful PHP library for shortening URLs.
 
 Support for the following providers is baked in:
@@ -23,6 +20,10 @@ Requirements
 Usage
 =====
 
+First, you'll need to configure your individual API keys for the provider(s) you wish to utilize. See [this document](https://github.com/snewman205/PHURL/blob/master/CONFIGURE.md) for complete instructions.
+
+When you're ready, begin shortening URLs in just three lines of code:
+
 ```
 <?php
 
@@ -34,4 +35,3 @@ Usage
    
 ?>
 ```
->>>>>>> 932a4f0468b5995da71f38b4386d6b35b84cd1be
