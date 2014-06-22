@@ -33,11 +33,11 @@ Next, select **Credentials** under the **APIs and Auth** menu on the left.
 
 ![Goo.gl API token generation](https://raw.githubusercontent.com/snewman205/PHURL/master/docs/images/googl_api_console_3.png "Goo.gl API token generation")
 
-Under **Public API access**, select **Create new Key**
+Under **Public API access**, select **Create new Key**.
 
 ![Goo.gl API token generation](https://raw.githubusercontent.com/snewman205/PHURL/master/docs/images/googl_api_console_4.png "Goo.gl API token generation")
 
-Select **Browser Key**
+Select **Browser Key**.
 
 ![Goo.gl API token generation](https://raw.githubusercontent.com/snewman205/PHURL/master/docs/images/googl_api_console_5.png "Goo.gl API token generation")
 
@@ -49,4 +49,18 @@ Click **Create** and you will be presented with your new API key. Open *lib/Phur
 
 ```
 static private $apiKey = '{YOUR_KEY_HERE}';
+```
+
+Adf.ly
+======
+
+Visit https://adf.ly/publisher/tools#tools-api to view your API token and UID. You will see an example url that will include your API key and UID:
+
+![Adf.ly API token generation](https://raw.githubusercontent.com/snewman205/PHURL/master/docs/images/adfly_token_gen.png "Adf.ly API token generation")
+
+Open *lib/Phurl/providers/Adfly.php* and insert your API key and UID near the top of the file:
+
+```
+static private $apiKey = '{YOUR_KEY_HERE}';
+static private $apiUid = '{YOUR_UID_HERE}';
 ```
